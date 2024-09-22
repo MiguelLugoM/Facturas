@@ -1,3 +1,5 @@
+//Contexto de base de datos
+
 using Microsoft.EntityFrameworkCore;
 
 public class AppDbContext : DbContext
