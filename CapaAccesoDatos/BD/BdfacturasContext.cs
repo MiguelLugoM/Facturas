@@ -192,3 +192,11 @@ public partial class BdfacturasContext : DbContext
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
+
+
+
+//Comando por consola para mapear la base de datos y generar automaticamente el DbContext en Visual Studio
+//Scaffold-DbContext "Server=TU_SERVIDOR_SQL;Database=TuBaseDeDatos;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir CapaAccesoDatos/BD
+
+//Comando por consola para mapear la base de datos y generar automaticamente el DbContext en Visual Studio Code
+//dotnet ef dbcontext scaffold "Server=TU_SERVIDOR_SQL;Database=TuBaseDeDatos;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
