@@ -1,5 +1,10 @@
 //Capa de logica de negocio para Producto
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using TallerEvaluativo.CapaAccesoDatos;
 using TallerEvaluativo.CapaAccesoDatos.BD;
 
@@ -8,7 +13,6 @@ public class ProductoService
 {
     private readonly IRepositorio<Producto> _productoRepositorio;
 
-    //Constructor
     public ProductoService(IRepositorio<Producto> productoRepositorio)
     {
         _productoRepositorio = productoRepositorio;

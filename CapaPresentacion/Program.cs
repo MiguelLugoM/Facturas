@@ -24,7 +24,7 @@ class Program
             .AddScoped<Producto>() // Registro del servicio Producto
             .AddScoped<ProductosPorFactura>() // Registro del servicio ProductoPorFactura
             .AddScoped<Vendedor>() // Registro del servicio Vendedor
-            .AddScoped<ProductoService>() // CRUD generico
+            .AddScoped<ProductoService>() // CRUD Producto
             .BuildServiceProvider();
 
 
